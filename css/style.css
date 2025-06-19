@@ -5,6 +5,10 @@
     border: 1px dashed black;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* #region Header*/
 
 header{
@@ -51,6 +55,11 @@ header{
 
 /* #region Main*/
 
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 #cards{
     display: flex;
     justify-content: center;
@@ -80,6 +89,26 @@ img{
         display: flex;
         justify-content: center;
     }
+}
+
+.brand{
+    opacity: 0.7;
+}
+
+h5{
+    font-size: 18px;
+}
+
+.price{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.old-price{
+    color: black;
+    text-decoration: line-through;
+    opacity: 0.7;
+    font-weight: normal;
 }
 
 /* #endregion Main*/
