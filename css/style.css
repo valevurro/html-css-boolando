@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px dashed black;
+}
+
+/* #region Header*/
+
+header{
+    background-color: #ff6900;
+    position: sticky;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1500px;
+    min-width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links{
+    li{
+        display: inline-block;
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            color: white; 
+        }
+        
+    }
+}
+
+.boolean-logo{
+    width: 15%;
+    margin-left: 400px;
+}
+
+/* #endregion Header*/
