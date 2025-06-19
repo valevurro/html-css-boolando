@@ -42,10 +42,17 @@ header{
     }
 }
 
-.boolean-logo{
+.logo{
+    display: flex;
+    justify-content: center;
+
+    .boolean-logo{
     width: 15%;
-    margin-left: 400px;
+    }
+
 }
+
+
 
 .icone{
     color: gainsboro;
@@ -75,19 +82,50 @@ img{
     width: 400px;
 }
 
+.top{
+
+    position: relative;
+
+    .back{
+        display: none;
+    }
+
+    &:hover .front{
+        display: none;
+    }
+
+    &:hover .back{
+        display: block;
+    }
+}
+
 .cuore{
 
     position: absolute;
-    top: 8px;
-    left: 350px;
-    font-size: 40px;
+    top: 10px;
+    right: 0;
+    border: none;
     background-color: white;
-    width: 50px;
-    height: 50px;
+    padding: 0.5rem;
+}
 
-    i{
-        display: flex;
-        justify-content: center;
+.badge{
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+    color: white;
+
+    .badge{
+        padding: 0.25rem 1rem;
+
+    }
+
+    .discount{
+        background-color: #ff0000;
+    }
+
+    .category{
+        background-color: green;
     }
 }
 
