@@ -32,7 +32,7 @@ header{
         a{
             font-size: 20px;
             text-decoration: none;
-            color: white; 
+            color: gainsboro; 
         }
         
     }
@@ -43,4 +43,43 @@ header{
     margin-left: 400px;
 }
 
+.icone{
+    color: gainsboro;
+}
+
 /* #endregion Header*/
+
+/* #region Main*/
+
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    }
+
+.card{
+    position: relative;
+}
+
+img{
+    width: 400px;
+}
+
+.cuore{
+
+    position: absolute;
+    top: 8px;
+    left: 350px;
+    font-size: 40px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+
+    i{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* #endregion Main*/
